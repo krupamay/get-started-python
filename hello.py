@@ -5,6 +5,7 @@ import os
 import json
 
 app = Flask(__name__, static_url_path='')
+print("test")
 
 db_name = 'mydb'
 client = None
