@@ -5,7 +5,7 @@ import os
 import json
 
 app = Flask(__name__, static_url_path='')
-print("test")
+print("Flask APP created")
 
 db_name = 'mydb'
 client = None
